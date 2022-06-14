@@ -7,7 +7,6 @@ fetch('http://localhost:80/users', {
 
   .then(json => {     
     const getList = json.allUsers
-    console.log(getList)
     let cardDB = ''
 
     getList.forEach(db => {
